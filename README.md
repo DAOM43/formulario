@@ -1,69 +1,52 @@
-# React + TypeScript + Vite
+📋 Formulario Personal en React + Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un formulario web responsivo desarrollado con React + TypeScript y Bootstrap 5.
+El formulario recopila datos personales como nombre, apellido, género, email, fecha de nacimiento y dirección.
 
-Currently, two official plugins are available:
+🛠️ Tecnologías usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React + Vite
 
-## Expanding the ESLint configuration
+TypeScript
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Bootstrap 5
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+⚙️ Instalación y ejecución
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Clonar el repositorio:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+git clone https://github.com/DAOM43/formulario/edit/main/README.md
+cd formulario-personal
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Instalar dependencias:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+npm install
+
+
+Ejecutar en modo desarrollo:
+
+npm run dev
+
+Abrir en el navegador:
+
+http://localhost:5173
+
+📸 Vista previa
+
+pc 
+
+<img width="1558" height="877" alt="image" src="https://github.com/user-attachments/assets/244bfcc8-a46f-4718-a2d5-142326239c34" />
+
+Tableta
+
+<img width="538" height="762" alt="image" src="https://github.com/user-attachments/assets/98bbef97-c9ca-4d12-a1ad-17716a801b17" />
+
+Movil
+
+<img width="517" height="856" alt="image" src="https://github.com/user-attachments/assets/127fe3d2-6ff8-4310-9e7f-b55288378e8e" />
+
+
+
+
+
